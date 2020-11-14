@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 50vh;
+    font-size: 16px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+header {
+    max-height: 1vh;
+}
+
+header a {
+    display: block;
+    margin: 10px;
+}
+
+main div {
+    text-align: center;
+}
+
+
+main img {
+text-align: center;
+height: 50%;
+margin: 89 px 0px 0px;
+margin-bottom: 40px;
+}
+
+main input[type="text"] {
+    padding: 10px;
+    width: 80%;
+    max-width: 600px;
+    border: 1px solid #bbb;
+    border-radius: 30px;
+}
+
+main button {
+    display: flex;
+    border: none;
+    border-radius: 20px;
+    padding: 30px 10px 20px;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+.submit-buttons {
+    margin-top: 3vh;
+}
+
+.buttons {
+    color: -internal-light-dark(black, white);
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    border-radius: 1px;
+    border: 1px solid #c6c6c6;
+}
+
+.submit-buttons:hover {
+    border-color: black;
+    border: black 2px;
+}
+
+.nav {
+    display: flex;
+}
+
+footer {
+    background-color: #bbb;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-a {
+    justify-content: space-between;
+}
+
+footer a {
+    text-align: left;
+
+}
+
+.image-word {
+    color: blue;
+}
+
+.navbar-brand {
+    position: relative;
+    background: url("CS50W\pset0_Search\search\googlelogo_color_272x92dp.png");
+    width: 17px;
+    left: 15px;
+    max-height: 100px;
+}
+
+#app-bar {
+    min-height: 0;
+}
